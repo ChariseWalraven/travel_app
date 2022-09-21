@@ -32,26 +32,15 @@ class TravelApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text(
-            "TRAVEL APP",
-            style: Theme.of(context)
-                .appBarTheme
-                .titleTextStyle
-                ?.copyWith(letterSpacing: 2.5),
-          ),
-        ),
-        body: ListView(
-          shrinkWrap: true,
-          children: [
-            const BannerImage(assetPath: "assets/banner.jpg"),
-            const SectionTitle("Popular Destinations"),
-            const TagRow(),
-            DestinationGrid(destinations),
-          ],
-        ),
+    return TravelAppScaffold(
+      body: ListView(
+        shrinkWrap: true,
+        children: [
+          const BannerImage(assetPath: "assets/banner.jpg"),
+          const SectionTitle("Popular Destinations"),
+          const TagRow(),
+          DestinationGrid(destinations),
+        ],
       ),
     );
   }

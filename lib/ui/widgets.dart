@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/data/destinations.dart';
 import 'package:travel_app/models/destination.dart' as models;
+import 'package:travel_app/utils/constants.dart';
 
 class BannerImage extends StatelessWidget {
   /// Displays a banner image
@@ -169,6 +171,39 @@ class TagRow extends StatelessWidget {
           Tag("Hotels"),
           Tag("Shows"),
         ],
+      ),
+    );
+  }
+}
+
+class TravelAppScaffold extends StatelessWidget {
+  const TravelAppScaffold({
+    super.key,
+    this.body,
+    this.appBar,
+  });
+
+  final Widget? body;
+  final PreferredSizeWidget? appBar;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: appBar ??
+          AppBar(
+            title: GestureDetector(
+              onDoubleTap: () => Navigator.pushNamed(context, Routes.test),
+              child: Text(
+                appName,
+                style: Theme.of(context)
+                    .appBarTheme
+                    .titleTextStyle
+                    ?.copyWith(letterSpacing: 2.5),
+              ),
+            ),
+          ),
+      body: SafeArea(
+        child: body ?? Container(),
       ),
     );
   }
