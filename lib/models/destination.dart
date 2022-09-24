@@ -6,11 +6,12 @@ class Destination {
   final String description;
   final List<Attraction> attractions;
 
-  const Destination(
-      {required this.name,
-      this.imageAsset = "assets/beach_square.png",
-      required this.description,
-      required this.attractions});
+  const Destination({
+    required this.name,
+    this.imageAsset = "assets/beach_square.png",
+    required this.description,
+    required this.attractions,
+  });
 
   factory Destination.fromJSON(Map<String, dynamic> json) {
     List<Attraction> attractions = [];
