@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Travel App',
       theme: travelAppLightTheme,
       darkTheme: travelAppDarkTheme,
-      home: TravelApp(),
+      home: const TravelApp(),
     );
   }
 }
