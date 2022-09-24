@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travel_app/data/destinations.dart';
 import 'package:travel_app/models/destination.dart' as models;
+import 'package:travel_app/ui/screens/test.dart';
 import 'package:travel_app/utils/constants.dart';
 
 class BannerImage extends StatelessWidget {
@@ -192,7 +193,12 @@ class TravelAppScaffold extends StatelessWidget {
       appBar: appBar ??
           AppBar(
             title: GestureDetector(
-              onDoubleTap: () => Navigator.pushNamed(context, Routes.test),
+              onDoubleTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const TestScreen(),
+                ),
+              ),
               child: Text(
                 appName,
                 style: Theme.of(context)
