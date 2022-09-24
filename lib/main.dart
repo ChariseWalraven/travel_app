@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:travel_app/ui/theme.dart';
-import 'package:travel_app/ui/widgets.dart';
+import 'package:travel_app/ui/widgets/banner_image.dart';
+import 'package:travel_app/ui/widgets/destination.dart';
+import 'package:travel_app/ui/widgets/travel_app_scaffold.dart';
+import 'package:travel_app/ui/widgets/widgets.dart';
 
 void main() {
   runApp(const MyApp());
