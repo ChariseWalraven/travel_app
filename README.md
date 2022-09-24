@@ -1,10 +1,14 @@
 # travel_app
 
-### Assignment 1 of the FlutterDevCamp
+### Week 1 Assignment 1 and 2 of the FlutterDevCamp
 
 :star: This app has a dark and a light mode. Try them both out and let me know what you think! :star:
 
-
-The purpose of this assignment was to become familiar with some of the the basics of Flutter Layout. Specifically, the whole page needed to scroll, not just the GridView.
-
 I took inspiration from Polaroid images for the DestinationTiles.
+
+Learning outcomes of this app (from the Assignment documents given during week 1):
+
+1. Learn how to create nested model classes.
+2. Flutter Navigation
+3. Passing data between the pages.
+4. Designing simple and functioning User Interface with basic Flutter widgets.
