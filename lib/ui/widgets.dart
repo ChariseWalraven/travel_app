@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travel_app/data/destinations_helper.dart';
 import 'package:travel_app/models/destination.dart' as models;
+import 'package:travel_app/ui/screens/destination_detail.dart';
 import 'package:travel_app/ui/screens/test.dart';
 import 'package:travel_app/utils/constants.dart';
 
@@ -38,38 +39,49 @@ class DestinationTile extends StatelessWidget {
   Widget build(BuildContext context) {
     var brightness = MediaQuery.of(context).platformBrightness;
     bool isDarkMode = brightness == Brightness.dark;
-    return Padding(
-      padding: const EdgeInsets.all(10),
-      child: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(2),
-          boxShadow: kElevationToShadow[1],
-          color: isDarkMode ? Colors.grey.shade100 : Colors.grey.shade800,
+    // TODO: pass data here
+    return GestureDetector(
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => DestinationDetail(
+            name: destination.name,
+          ),
         ),
-        child: Padding(
-          padding: const EdgeInsets.only(top: 5, left: 5, right: 5),
-          child: Column(
-            children: [
-              Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(2),
-                    image: DecorationImage(
-                      fit: BoxFit.cover,
-                      alignment: Alignment.bottomCenter,
-                      image: AssetImage(destination.imageAsset),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(2),
+            boxShadow: kElevationToShadow[1],
+            color: isDarkMode ? Colors.grey.shade100 : Colors.grey.shade800,
+          ),
+          child: Padding(
+            padding: const EdgeInsets.only(top: 5, left: 5, right: 5),
+            child: Column(
+              children: [
+                Expanded(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(2),
+                      image: DecorationImage(
+                        fit: BoxFit.cover,
+                        alignment: Alignment.bottomCenter,
+                        image: AssetImage(destination.imageAsset),
+                      ),
                     ),
                   ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 10),
-                child: Text(
-                  destination.name,
-                  style: Theme.of(context).textTheme.bodyMedium,
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 10),
+                  child: Text(
+                    destination.name,
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
@@ -112,16 +124,16 @@ class _DestinationGridState extends State<DestinationGrid> {
           if (snapshot.hasData) {
             List<models.Destination>? destinations = snapshot.data;
             child = GridView.builder(
-      shrinkWrap: true,
+              shrinkWrap: true,
               itemCount: destinations?.length,
-      padding: const EdgeInsets.all(5),
-      physics: const ScrollPhysics(),
+              padding: const EdgeInsets.all(5),
+              physics: const ScrollPhysics(),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2),
-      itemBuilder: ((context, int index) {
+              itemBuilder: ((context, int index) {
                 return DestinationTile(destinations![index]);
-      }),
-    );
+              }),
+            );
           } else if (snapshot.hasError) {
             <Widget>[
               const Icon(
