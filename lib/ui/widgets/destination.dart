@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travel_app/data/destinations_helper.dart';
 import 'package:travel_app/models/destination.dart' as models;
-import 'package:travel_app/ui/screens/destination_detail.dart';
+import 'package:travel_app/ui/screens/destination_detail/destination_detail.dart';
 
 class DestinationTile extends StatelessWidget {
   /// Displays a destination tile
