@@ -13,9 +13,12 @@ final ThemeData travelAppLightTheme = ThemeData(
     ),
   ),
   textTheme: TextTheme(
-    headlineSmall: GoogleFonts.robotoSlab(color: Colors.grey.shade800),
-    bodyMedium: GoogleFonts.robotoSlab(color: Colors.grey.shade100),
+    titleLarge: GoogleFonts.robotoSlab(color: Colors.grey.shade800),
+    titleMedium: GoogleFonts.robotoSlab(color: Colors.grey.shade800),
+    titleSmall: GoogleFonts.robotoSlab(color: Colors.grey.shade800),
+    bodyMedium: GoogleFonts.robotoSlab(color: Colors.grey.shade800),
     bodySmall: GoogleFonts.robotoSlab(color: Colors.grey.shade800),
+    bodyLarge: GoogleFonts.robotoSlab(color: Colors.grey.shade800),
   ),
 );
 
@@ -32,8 +35,11 @@ final ThemeData travelAppDarkTheme = ThemeData(
     ),
   ),
   textTheme: TextTheme(
-    headlineSmall: GoogleFonts.robotoSlab(color: Colors.grey.shade100),
-    bodyMedium: GoogleFonts.robotoSlab(color: Colors.grey.shade800),
+    titleLarge: GoogleFonts.robotoSlab(color: Colors.grey.shade100),
+    titleMedium: GoogleFonts.robotoSlab(color: Colors.grey.shade100),
+    titleSmall: GoogleFonts.robotoSlab(color: Colors.grey.shade100),
+    bodyMedium: GoogleFonts.robotoSlab(color: Colors.grey.shade100),
     bodySmall: GoogleFonts.robotoSlab(color: Colors.grey.shade100),
+    bodyLarge: GoogleFonts.robotoSlab(color: Colors.grey.shade100),
   ),
 );
