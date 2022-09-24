@@ -1,6 +1,5 @@
-
 import 'package:flutter/material.dart';
-import 'package:travel_app/ui/widgets.dart';
+import 'package:travel_app/ui/widgets/travel_app_scaffold.dart';
 
 class TestScreen extends StatelessWidget {
   const TestScreen({super.key});
