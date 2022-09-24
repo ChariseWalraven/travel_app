@@ -5,7 +5,32 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
     "attractions": [
       {
-        "name": "Attraction",
+        "name": "Attraction 1",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      },
+      {
+        "name": "Attraction 2",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      },
+      {
+        "name": "Super Cool Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      },
+      {
+        "name": "Attraction 3",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      },
+      {
+        "name": "Attraction 4",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      },
+      {
+        "name": "Another Super Cool Attraction",
         "imageAsset": "assets/beach_square.png",
         "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
       }
@@ -17,7 +42,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
     "attractions": [
       {
-        "name": "Attraction",
+        "name": "Super Cool Attraction",
         "imageAsset": "assets/beach_square.png",
         "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
       }
@@ -29,7 +54,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
     "attractions": [
       {
-        "name": "Attraction",
+        "name": "Super Cool Attraction",
         "imageAsset": "assets/beach_square.png",
         "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
       }
@@ -41,7 +66,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
     "attractions": [
       {
-        "name": "Attraction",
+        "name": "Super Cool Attraction",
         "imageAsset": "assets/beach_square.png",
         "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
       }
@@ -53,7 +78,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
     "attractions": [
       {
-        "name": "Attraction",
+        "name": "Super Cool Attraction",
         "imageAsset": "assets/beach_square.png",
         "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
       }
@@ -65,7 +90,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
     "attractions": [
       {
-        "name": "Attraction",
+        "name": "Super Cool Attraction",
         "imageAsset": "assets/beach_square.png",
         "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
       }
@@ -77,7 +102,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
     "attractions": [
       {
-        "name": "Attraction",
+        "name": "Super Cool Attraction",
         "imageAsset": "assets/beach_square.png",
         "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
       }
@@ -89,7 +114,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
     "attractions": [
       {
-        "name": "Attraction",
+        "name": "Super Cool Attraction",
         "imageAsset": "assets/beach_square.png",
         "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
       }
