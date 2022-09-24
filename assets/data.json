@@ -1,0 +1,98 @@
+[
+  {
+    "name": "London",
+    "imageAsset": "assets/destinations/london.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
+    "attractions": [
+      {
+        "name": "Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      }
+    ]
+  },
+  {
+    "name": "Paris",
+    "imageAsset": "assets/destinations/paris.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
+    "attractions": [
+      {
+        "name": "Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      }
+    ]
+  },
+  {
+    "name": "Madrid",
+    "imageAsset": "assets/destinations/madrid.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
+    "attractions": [
+      {
+        "name": "Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      }
+    ]
+  },
+  {
+    "name": "Venice",
+    "imageAsset": "assets/destinations/venice.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
+    "attractions": [
+      {
+        "name": "Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      }
+    ]
+  },
+  {
+    "name": "Hong Kong",
+    "imageAsset": "assets/destinations/hong_kong.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
+    "attractions": [
+      {
+        "name": "Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      }
+    ]
+  },
+  {
+    "name": "Cape Town",
+    "imageAsset": "assets/destinations/cape_town.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
+    "attractions": [
+      {
+        "name": "Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      }
+    ]
+  },
+  {
+    "name": "Cairo",
+    "imageAsset": "assets/destinations/cairo.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
+    "attractions": [
+      {
+        "name": "Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      }
+    ]
+  },
+  {
+    "name": "New York",
+    "imageAsset": "assets/destinations/new_york.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi. ",
+    "attractions": [
+      {
+        "name": "Attraction",
+        "imageAsset": "assets/beach_square.png",
+        "description": "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est."
+      }
+    ]
+  }
+]
