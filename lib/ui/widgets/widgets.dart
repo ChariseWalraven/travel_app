@@ -1,21 +1,34 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/utils/constants.dart';
 
 class SectionTitle extends StatelessWidget {
   /// Displays a section title
   const SectionTitle(
     this.title, {
+    this.titleSize = SectionTitleSizes.titleLarge,
     Key? key,
   }) : super(key: key);
 
   final String title;
+  final SectionTitleSizes titleSize;
 
   @override
   Widget build(BuildContext context) {
+    TextStyle? style;
+    if (titleSize == SectionTitleSizes.titleSmall) {
+      style = Theme.of(context).textTheme.titleSmall;
+    }
+    if (titleSize == SectionTitleSizes.titleMedium) {
+      style = Theme.of(context).textTheme.titleMedium;
+    }
+    if (titleSize == SectionTitleSizes.titleLarge) {
+      style = Theme.of(context).textTheme.titleLarge;
+    }
     return Padding(
       padding: const EdgeInsets.all(15),
       child: Text(
         title,
-        style: Theme.of(context).textTheme.headlineSmall,
+        style: style,
       ),
     );
   }
