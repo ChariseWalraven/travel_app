@@ -29,11 +29,11 @@ class TravelApp extends StatelessWidget {
     return TravelAppScaffold(
       body: ListView(
         shrinkWrap: true,
-        children: [
-          const BannerImage(assetPath: "assets/banner.jpg"),
-          const SectionTitle("Popular Destinations"),
-          const TagRow(),
-          DestinationGrid(destinations),
+        children: const [
+          BannerImage(assetPath: "assets/banner.jpg"),
+          SectionTitle("Popular Destinations"),
+          TagRow(),
+          DestinationGrid(),
         ],
       ),
     );
